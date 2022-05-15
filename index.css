@@ -99,6 +99,8 @@
     height: 296px;
 }
 
+/* mobile */
+
 @media (max-width:740px) {
     .menu li a{
         padding: 0 10px;
@@ -152,6 +154,15 @@
     .slider{
         background:#fff;
     }
+
+    .img-girl1 img{
+
+    margin: 10px 0;
+    }
+
+    .img-girl3 img{
+        margin: 10px 0;
+        }
 }
 
 @media (min-width:740px) and (max-width: 1024px){
