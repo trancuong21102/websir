@@ -27,10 +27,13 @@
 }
 
 .menu li a{
-    padding: 0 20px;
+    padding: 10px 20px;
     font-size: 25px;
     text-decoration: none;
     color: #fff;
+}
+.menu li a:hover{
+    background:#ccc;
 }
 
 /* phần slider */
