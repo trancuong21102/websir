@@ -111,9 +111,13 @@
 
     .menu-bar{
 
-        height:30px;
+        height:50px;
         background-color: #000;
 
+    }
+
+    .menu{
+        display:none;
     }
     .logo > img{
         width: 34px;
@@ -189,3 +193,108 @@
     }
 }
 
+
+
+
+/* test */
+.nav-bars-btn {
+    font-size: 25px;
+    color:#000;
+    margin-top: 7px;
+    margin-right: 18px;
+    display:none;
+    color: #fff;
+}
+
+.nav-bars-btn a{
+    color:#fff;
+}
+
+.nav-overlay{
+    position:fixed;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    background: rgba(0,0,0,0.3);
+    display:none;
+    animation: fadIn linear 0.5s;
+}
+
+.nav-mobile{
+    position: fixed;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    max-width: 100%;
+    background:#fff;
+    transform: translateX(-100%);
+    opacity:0;
+    transition: transform linear 0.2s;
+    background: #000
+}
+.nav-mobile-list{
+    margin-top:24px;
+}
+.nav-mobile-link{
+    color: #333;
+    margin-left: 20px;
+     display:block;
+     padding:8px 0;
+     font-size: 1.4rem;
+}
+
+.nav-mobile-link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-mobile-close{
+    font-size: 1.4rem;
+    position: absolute;
+    top:1rem;
+    right:1rem;
+}
+.nav-mobile-close a{
+    text-decoration: none;
+    color:#000;
+}
+
+.nav-mobile-close i{
+    color: #fff;
+}
+
+.nav-mobile:checked ~ .nav-overlay{
+    display:block;
+}
+
+.nav-mobile:checked ~ .nav-mobile{
+    transform: translateX(0%);
+    opacity:1;
+}
+
+input{
+    display: none;
+}
+@media (max-width:1023px) {
+    .nav-bars-btn {
+        
+        display:block;
+    }
+
+    .nav-PC{
+        display:none;
+    }
+}
+
+@keyframes fadIn{
+    from{
+        opacity: 0;
+    }
+
+    to{
+        opacity: 1;
+    }
+}
