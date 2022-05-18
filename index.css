@@ -211,7 +211,7 @@ img{
     .menu{
         display:none;
     }
-    .logo > img{
+    .logo > a > img{
         width: 34px;
         opacity: 0.5;
         height: 30px;
