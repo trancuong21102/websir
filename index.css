@@ -138,12 +138,11 @@
 
 .footer-info li:hover a{
     color : rgb(195, 89, 89);
-    font-size: 25px;
+    
 }
 
 .footer-info li:hover{
     color : rgb(195, 89, 89);
-    font-size: 25px;
 }
 
 .footer-info li{
@@ -253,6 +252,35 @@
     .img-girl3 img{
         margin: 10px 0;
         }
+    .footer{
+        text-align: center;
+        display: block;
+        padding-top: 18px;
+        padding-bottom: 30px;
+    }
+
+    .footer-info{
+        display: block;
+    }
+    .footer-donate{
+        display: block;
+        margin-left: 25%;
+    }
+
+    .footer-donate li{
+        font-size: 20px;
+    }
+
+    .footer-donate li img{
+        width: 50%;
+    }
+
+    .footer-info li a{
+        font-size: 20px;
+    }
+    .footer-info li{
+        font-size: 20px;
+    }
 }
 
 @media (min-width:740px) and (max-width: 1024px){
