@@ -111,7 +111,52 @@
     height: 296px;
 }
 
+/* footer */
+.footer{
+    max-height: 500px;
+    width: 100%;
+    background:#000;
+    display: flex;
+    justify-content: space-between;
+}
 
+.footer-info{
+    width: 40%;
+    margin-left: 25%;
+    margin-top: 40px;
+}
+.footer-info li{
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer-info li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+}
+
+.footer-info li{
+    margin: 20px 0;
+    list-style: none;
+}
+
+.footer-donate  li > img{
+    width: 30%;
+}
+
+.footer-donate{
+    width: 40%;
+    margin-top:40px;
+}
+
+.footer-donate li{
+
+    color: #fff;
+    margin: 20px 0;
+    list-style: none;
+    font-size:30px;
+}
 
 /* mobile */
 
