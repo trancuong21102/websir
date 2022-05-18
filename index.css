@@ -176,6 +176,8 @@ img{
 
 /* mobile */
 
+
+
 @media (max-width:740px) {
     .menu li a{
         padding: 0 10px;
@@ -253,11 +255,12 @@ img{
     .img-girl1 img{
 
     margin: 10px 0;
-    height:406px;
+    height:582px;
     }
 
     .img-girl3 img{
         margin: 10px 0;
+        height: 582px;
         }
     .footer{
         text-align: center;
