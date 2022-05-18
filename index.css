@@ -100,6 +100,8 @@
     height: 296px;
 }
 
+
+
 /* mobile */
 
 @media (max-width:740px) {
@@ -114,6 +116,17 @@
         height:50px;
         background-color: #000;
 
+    }
+
+    .nav-overlay{
+        position:fixed;
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        background: rgba(0,0,0,0.3);
+        display:none;
+        animation: fadIn linear 0.5s;
     }
 
     .menu{
