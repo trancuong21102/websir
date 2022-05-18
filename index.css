@@ -23,7 +23,7 @@ img{
     z-index: 1;
 }
 
-.logo > img{
+.logo > a > img{
     height:calc(100px / 2);
     opacity: 0.5;
     overflow: hide;
