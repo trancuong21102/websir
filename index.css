@@ -136,6 +136,16 @@
     font-size: 30px;
 }
 
+.footer-info li:hover a{
+    color : rgb(195, 89, 89);
+    font-size: 25px;
+}
+
+.footer-info li:hover{
+    color : rgb(195, 89, 89);
+    font-size: 25px;
+}
+
 .footer-info li{
     margin: 20px 0;
     list-style: none;
