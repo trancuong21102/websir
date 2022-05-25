@@ -78,6 +78,17 @@ img{
     margin: 10px 20px;
 }
 
+.more-mobile{
+    display:none;
+}
+
+.more-mobile a,
+.more-mobile p{
+    text-decoration: none;
+    color:#000;
+    font-size: 20px;
+}
+
 /*zoom */
 .zoom {
     padding: 20px;
@@ -100,6 +111,21 @@ img{
 
 .info{
     margin-bottom: 20px;
+    position:relative;
+}
+
+.more{
+    position: absolute;
+    right: 50px;
+    top: 10px;
+}
+
+.more p,
+.more a{
+    text-decoration: none;
+    color:#000;
+    font-size: 23px;
+    font-weight: 500;
 }
 
 .info h1 {
@@ -117,6 +143,8 @@ img{
     width:100%;
     height: 301px;
 }
+
+
 
 /* footer */
 .footer{
@@ -255,13 +283,14 @@ img{
     .img-girl1 img{
 
     margin: 10px 0;
-    height:582px;
+    height:100%;
     }
 
     .img-girl3 img{
         margin: 10px 0;
-        height: 496px;
-        }
+        height: 100%;
+    }
+
     .footer{
         text-align: center;
         display: block;
@@ -290,6 +319,14 @@ img{
     }
     .footer-info li{
         font-size: 20px;
+    }
+
+    .more{
+        display:none;
+    }
+
+    .more-mobile{
+        display: block;
     }
 }
 
