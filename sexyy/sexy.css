@@ -1,0 +1,8 @@
+@media (max-width:740px){
+    .list{
+        display:none;
+    }
+    .logo{
+        margin-right: 141px;
+    }
+}
