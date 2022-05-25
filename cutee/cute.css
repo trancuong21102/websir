@@ -47,6 +47,13 @@
     margin: -2px;
 }
 
+.nav-mobile-list li{
+    display:block;
+}
+
+.nav-mobile-list li a{
+    font-size: 20px;
+}
 @media (max-width:740px){
     .list{
         display:none;
