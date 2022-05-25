@@ -46,3 +46,12 @@
     padding: 10px 20px;
     margin: -2px;
 }
+
+@media (max-width:740px){
+    .list{
+        display:none;
+    }
+    .logo{
+        margin-right: 141px;
+    }
+}
