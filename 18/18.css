@@ -3,7 +3,7 @@
     margin:0;
 }
 .menu-18{
-    margin-top:0px;
+    margin-top:-100px;
     width:100%;
     height:50px;
     background-color: #000;
@@ -12,4 +12,30 @@
     justify-content: space-between;
     align-items: center;
     z-index: 1;
+}
+
+.back a{
+    padding: 10px 20px;
+}
+
+.back a:hover{
+    background-color:#ccc;
+}
+
+.list li a:hover{
+    background: #ccc;
+}
+
+@media (max-width:740px){
+    .list{
+        display:none;
+    }
+    .logo{
+        margin-right: 141px;
+    }
+
+    .img-girl1 img {
+        margin: 10px 0;
+        height: 479px;
+    }
 }
