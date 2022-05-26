@@ -22,11 +22,12 @@
     padding: 10px 20px;
 }
 
-.logo > a > img{
-    height:calc(100px / 2);
+.logo > a > img {
+    height: calc(100px / 2);
     opacity: 0.5;
     overflow: hide;
     border-radius: 50%;
+    margin-left: 174px;
 }
 
 .list{
