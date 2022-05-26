@@ -34,13 +34,16 @@
     padding:20px 20px;
 }
 
+.nav-mobile-list li {
+    display: block;
+    margin-top: 30px;
+}
+
 @media (max-width:740px){
     .list{
         display:none;
     }
-    .logo{
-        margin-right: 141px;
-    }
+
 
     .img-girl1 img {
         margin: 10px 0;
