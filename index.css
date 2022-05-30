@@ -240,9 +240,10 @@ img{
         display:none;
     }
     .logo > a > img{
-        width: 49px;
+        width: 38px;
         opacity: 0.5;
-        height: 46px;
+        margin-left: 5px;
+        height: 39px;
     }
     .row{
         display:block;
@@ -357,7 +358,7 @@ img{
 
 /* test */
 .nav-bars-btn {
-    font-size: 50px;
+    font-size: 29px;
     color:#000;
     margin-top: 7px;
     margin-right: 18px;
